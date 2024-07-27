@@ -12,9 +12,9 @@ export default function App() {
           <Title>Flags of the World</Title>
           <nav class="flex flex-row gap-4 p-2 border">
 
-            <a href="/" class="border rounded p-2">Home</a>
-            <a href="/quiz" class="border rounded p-2">Start Quiz</a>
-            <a href="/flags" class="border rounded p-2">Flags</a>
+            <a href="/" class="border rounded p-2" target="_self">Home</a>
+            <a href="/quiz" class="border rounded p-2" target="_self">Start Quiz</a>
+            <a href="/flags" class="border rounded p-2" target="_self">Flags</a>
           </nav>
           <Suspense>{props.children}</Suspense>
         </MetaProvider>

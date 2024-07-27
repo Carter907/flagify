@@ -1,5 +1,7 @@
-interface Flag {
+export default interface Flag {
   name: string,
-  img: string,
   description: string,
+  continent: string,
+  img: string,
 }
+
