@@ -1,3 +1,4 @@
+import Flag from '../model/flag'
 interface StudyFlagProps {
   flag: Flag
 }

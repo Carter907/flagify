@@ -1,10 +1,10 @@
-import FourCountryQuestion from "~/components/FourCountryQuestion"
+import FourCountryQuiz from "~/components/FourCountryQuiz"
 export default function Home() {
 
   return (
     <div>
 
-      <FourCountryQuestion />
+      <FourCountryQuiz />
     </div>
   )
 }
