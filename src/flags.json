@@ -1,0 +1,122 @@
+[
+  {
+    "name": "United States",
+    "img": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+    "description": "The United States of America is a world leader"
+  },
+  {
+    "name": "Germany",
+    "img": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+    "description": "Germany is known for its technological advancements and rich history."
+  },
+  {
+    "name": "France",
+    "img": "https://flagicons.lipis.dev/flags/4x3/fr.svg",
+    "description": "France is famous for its culture, cuisine, and contributions to art and philosophy."
+  },
+  {
+    "name": "Italy",
+    "img": "https://flagicons.lipis.dev/flags/4x3/it.svg",
+    "description": "Italy is renowned for its history, art, fashion, and cuisine."
+  },
+  {
+    "name": "Spain",
+    "img": "https://flagicons.lipis.dev/flags/4x3/es.svg",
+    "description": "Spain is known for its vibrant culture, architecture, and beautiful landscapes."
+  },
+  {
+    "name": "Japan",
+    "img": "https://flagicons.lipis.dev/flags/4x3/jp.svg",
+    "description": "Japan is famous for its technological innovations, rich cultural heritage, and natural beauty."
+  },
+  {
+    "name": "China",
+    "img": "https://flagicons.lipis.dev/flags/4x3/cn.svg",
+    "description": "China is one of the world's oldest civilizations, known for its vast territory, population, and economic growth."
+  },
+  {
+    "name": "India",
+    "img": "https://flagicons.lipis.dev/flags/4x3/in.svg",
+    "description": "India is recognized for its diversity in culture, religion, and geography, as well as its growing economy."
+  },
+  {
+    "name": "South Korea",
+    "img": "https://flagicons.lipis.dev/flags/4x3/kr.svg",
+    "description": "South Korea is noted for its rapid economic development, technology, and pop culture influence."
+  },
+  {
+    "name": "Albania",
+    "img": "https://flagicons.lipis.dev/flags/4x3/al.svg",
+    "description": "Albania is known for its rich history, beautiful coastline along the Adriatic Sea, and mountainous interior."
+  },
+  {
+    "name": "Andorra",
+    "img": "https://flagicons.lipis.dev/flags/4x3/ad.svg",
+    "description": "Andorra is a small country located in the Pyrenees mountains between France and Spain, known for its ski resorts and tax-haven status."
+  },
+  {
+    "name": "Armenia",
+    "img": "https://flagicons.lipis.dev/flags/4x3/am.svg",
+    "description": "Armenia is an ancient country with a rich cultural heritage, known for its monasteries, khachkars (cross-stones), and apricot orchards."
+  },
+  {
+    "name": "Austria",
+    "img": "https://flagicons.lipis.dev/flags/4x3/at.svg",
+    "description": "Austria is famous for its classical music, historical architecture, and stunning Alpine landscapes."
+  },
+  {
+    "name": "Belarus",
+    "img": "https://flagicons.lipis.dev/flags/4x3/by.svg",
+    "description": "Belarus is known for its Soviet-era architecture, vast forests, and strong national identity."
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "img": "https://flagicons.lipis.dev/flags/4x3/ba.svg",
+    "description": "Bosnia and Herzegovina is a country with a complex history, known for its diverse cultures, rugged terrain, and historic sites."
+  },
+  {
+    "name": "Croatia",
+    "img": "https://flagicons.lipis.dev/flags/4x3/hr.svg",
+    "description": "Croatia is celebrated for its beautiful coastlines along the Adriatic Sea, historic cities like Dubrovnik, and natural parks."
+  },
+  {
+    "name": "Cyprus",
+    "img": "https://flagicons.lipis.dev/flags/4x3/cy.svg",
+    "description": "Cyprus is an island nation in the Eastern Mediterranean, known for its warm climate, beautiful beaches, and ancient history."
+  },
+  {
+    "name": "Denmark",
+    "img": "https://flagicons.lipis.dev/flags/4x3/dk.svg",
+    "description": "Denmark is renowned for its high standard of living, progressive social policies, and iconic design."
+  },
+  {
+    "name": "Estonia",
+    "img": "https://flagicons.lipis.dev/flags/4x3/ee.svg",
+    "description": "Estonia is known for its digital society, medieval capital Tallinn, and beautiful Baltic Sea coastline."
+  },
+  {
+    "name": "Finland",
+    "img": "https://flagicons.lipis.dev/flags/4x3/fi.svg",
+    "description": "Finland is famous for its saunas, lakes, and forests, as well as its high quality of life and education system."
+  },
+  {
+    "name": "Georgia",
+    "img": "https://flagicons.lipis.dev/flags/4x3/ge.svg",
+    "description": "Georgia is known for its wine-making tradition, beautiful Caucasus Mountains, and unique alphabet."
+  },
+  {
+    "name": "Greece",
+    "img": "https://flagicons.lipis.dev/flags/4x3/gr.svg",
+    "description": "Greece is celebrated for its ancient history, sunny islands, and delicious cuisine."
+  },
+  {
+    "name": "Hungary",
+    "img": "https://flagicons.lipis.dev/flags/4x3/hu.svg",
+    "description": "Hungary is known for its thermal baths, vibrant capital Budapest, and contributions to arts and sciences."
+  },
+  {
+    "name": "Iceland",
+    "img": "https://flagicons.lipis.dev/flags/4x3/is.svg",
+    "description": "Iceland is famous for its volcanic landscapes, geothermal pools, and the Northern Lights."
+  }
+]
