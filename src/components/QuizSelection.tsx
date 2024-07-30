@@ -9,7 +9,7 @@ export default function QuizSelection() {
 
       <For each={quizThumbnails}>{(quizThumbnail, _) =>
 
-        <a href={"flagify/" + quizThumbnail.path} class="border shadow-2xl dark:bg-neutral-800 rounded-full p-4">
+        <a href={"/flagify/" + quizThumbnail.path} class="border shadow-2xl dark:bg-neutral-800 rounded-full p-4">
 
           <p class="text-2xl">{quizThumbnail.name}</p>
           <p class="opacity-50">{quizThumbnail.description}</p>
