@@ -8,7 +8,7 @@ import "./app.css";
 export default function App() {
   return (
     <Router
-      base="flagify"
+      base={import.meta.env.SERVER_BASE_URL}
       root={props => (
         <MetaProvider>
           <Title>Flags of the World</Title>

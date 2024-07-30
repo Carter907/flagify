@@ -7,7 +7,7 @@ export default defineConfig({
 
   server: {
 
-    baseURL: "flagify",
+    baseURL: process.env.BASE_PATH,
     preset: "static"
   }
 
