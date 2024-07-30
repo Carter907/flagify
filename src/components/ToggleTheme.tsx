@@ -1,4 +1,4 @@
-import { createSignal, createEffect, on, Show } from 'solid-js'
+import { createSignal, createEffect, on, Show, onMount } from 'solid-js'
 import { BsBrightnessHigh, BsBrightnessLow } from 'solid-icons/bs'
 export const [theme, toggleTheme] = createSignal(false);
 
@@ -16,7 +16,7 @@ export default function ToggleTheme() {
 
   }, { defer: true }))
 
-  createEffect(() => {
+  onMount(() => {
 
     const theme = localStorage.getItem("theme")
 

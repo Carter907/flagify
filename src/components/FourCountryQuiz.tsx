@@ -43,7 +43,7 @@ export default function FourCountryQuiz() {
     }
   })
   return (
-    <div class="p-2 flex flex-row">
+    <div class="p-2 flex flex-row justify-evenly">
 
       <div class="rounded basis-1/2">
         <img class="w-96 shadow-md border" src={questionData().correctFlag.img}></img>
@@ -69,7 +69,7 @@ export default function FourCountryQuiz() {
 
       </div>
 
-      <div class="border w-52 h-24 p-4 rounded-full">
+      <div class="self-center border w-52 h-24 p-4 rounded-full">
         <p class="text-4xl text-center">
 
           {score()}
