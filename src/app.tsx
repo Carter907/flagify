@@ -8,6 +8,7 @@ import "./app.css";
 export default function App() {
   return (
     <Router
+      base="flagify"
       root={props => (
         <MetaProvider>
           <Title>Flags of the World</Title>
@@ -36,9 +37,10 @@ export default function App() {
             <Suspense>{props.children}</Suspense>
           </div>
         </MetaProvider>
-      )}
+      )
+      }
     >
       <FileRoutes />
-    </Router>
+    </Router >
   );
 }
