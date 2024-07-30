@@ -23,7 +23,7 @@ export default function App() {
               </div>
               <div class="basis-1/2 flex flex-row justify-end gap-2 md:gap-5">
 
-                <a href="/profile" class="border rounded p-2" target="_self">Sandbox Profile</a>
+                <a href="/flagify/profile" class="border rounded p-2" target="_self">Sandbox Profile</a>
                 <div class="inline-flex">
 
                   <ToggleTheme></ToggleTheme>
