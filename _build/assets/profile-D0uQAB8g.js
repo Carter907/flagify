@@ -1,1 +1,0 @@
-import{p as t,w as r,h as a,y as m}from"./web-BBukAW2Q.js";import{T as o}from"./ToggleTheme-0I4ZpgFS.js";var n=m("<div>");function l(){return(()=>{var e=t(n);return r(e,a(o,{})),e})()}export{l as default};
