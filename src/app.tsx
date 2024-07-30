@@ -17,8 +17,8 @@ export default function App() {
             <div class="w-2/3 flex flex-row m-auto">
               <div class="basis-1/2 self-center flex flex-row gap-10">
                 <a href="/" class="border rounded p-2" target="_self">Home</a>
-                <a href="/quiz" class="border rounded p-2" target="_self">Start Quiz</a>
-                <a href="/flags" class="border rounded p-2" target="_self">Flags</a>
+                <a href="/flagify/quiz" class="border rounded p-2" target="_self">Start Quiz</a>
+                <a href="/flagify/flags" class="border rounded p-2" target="_self">Flags</a>
 
               </div>
               <div class="basis-1/2 flex flex-row justify-end gap-10">
