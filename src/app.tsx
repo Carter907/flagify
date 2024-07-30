@@ -14,19 +14,11 @@ export default function App() {
           <Title>Flags of the World</Title>
           <nav class="flex flex-row shadow-2xl md:gap-4 p-2 bg-neutral-300 dark:bg-neutral-800">
 
-<<<<<<< HEAD
             <div class="md:w-2/3 w-full md:px-0 px-4 flex flex-row m-auto">
               <div class="basis-1/2 justify-start flex flex-row gap-2 md:gap-5">
                 <a href="flagify" class="border rounded p-2" target="_self">Home</a>
                 <a href="flagify/quiz" class="border rounded p-2" target="_self">Start Quiz</a>
                 <a href="flagify/flags" class="border rounded p-2" target="_self">Flags</a>
-=======
-            <div class="w-2/3 flex flex-row m-auto">
-              <div class="basis-1/2 self-center flex flex-row gap-10">
-                <a href="/" class="border rounded p-2" target="_self">Home</a>
-                <a href="/flagify/quiz" class="border rounded p-2" target="_self">Start Quiz</a>
-                <a href="/flagify/flags" class="border rounded p-2" target="_self">Flags</a>
->>>>>>> gh-pages
 
               </div>
               <div class="basis-1/2 flex flex-row justify-end gap-2 md:gap-5">
