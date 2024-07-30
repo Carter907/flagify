@@ -3,12 +3,16 @@ import { Router } from "@solidjs/router";
 import { FileRoutes } from "@solidjs/start/router";
 import { Suspense } from "solid-js";
 import ToggleTheme from "./components/ToggleTheme";
+import { VsHome } from 'solid-icons/vs'
+import { IoFlagSharp } from 'solid-icons/io'
+import { BiSolidPencil } from 'solid-icons/bi'
+import { CgProfile } from 'solid-icons/cg'
 import "./app.css";
 
 export default function App() {
   return (
     <Router
-      base={import.meta.env.SERVER_BASE_URL}
+      base={import.meta.env.SERVER_BASE_URL || "flagify"}
       root={props => (
         <MetaProvider>
           <Title>Flags of the World</Title>
@@ -16,14 +20,14 @@ export default function App() {
 
             <div class="md:w-2/3 w-full md:px-0 px-4 flex flex-row m-auto">
               <div class="basis-1/2 justify-start flex flex-row gap-2 md:gap-5">
-                <a href="/flagify/" class="border rounded p-2">Home</a>
-                <a href="/flagify/quiz" class="border rounded p-2">Start Quiz</a>
-                <a href="/flagify/flags" class="border rounded p-2">Flags</a>
+                <a href="/flagify/" class="border rounded p-2 md:w-32 w-full"><VsHome /> Home</a>
+                <a href="/flagify/quiz" class="border rounded p-2 md:w-32 w-full"><BiSolidPencil />Quiz</a>
+                <a href="/flagify/flags" class="border rounded p-2 md:w-32 w-full"><IoFlagSharp /> Flags</a>
 
               </div>
               <div class="basis-1/2 flex flex-row justify-end gap-2 md:gap-5">
 
-                <a href="/flagify/profile" class="border rounded p-2">Sandbox Profile</a>
+                <a href="/flagify/profile" class="border rounded p-2"><CgProfile size={40} /></a>
                 <div class="inline-flex">
 
                   <ToggleTheme></ToggleTheme>
