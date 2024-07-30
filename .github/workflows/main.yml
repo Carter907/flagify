@@ -11,33 +11,22 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
 
-<<<<<<< HEAD
       - name: install
         run: npm i --legacy-peer-deps
 
       - name: build
         run: npm run build
         env:
-          BASE_PATH: /flagify/
+          BASE_PATH: /my-app/
 
       - name: create .nojekyll
         run: touch .output/public/.nojekyll
-=======
-      - name: install dependencies
-        run: npm ci
-
-      - name: build
-        run: npm run build
->>>>>>> 8a1f07f6ed29c567d3960377116523412cb95621
 
       - name: deploy pages
-        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
           branch: gh-pages
           folder: .output/public
-
-
