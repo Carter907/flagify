@@ -1,5 +1,8 @@
+import { createEffect } from 'solid-js'
+import ToggleTheme from '~/components/ToggleTheme';
 
 export default function Home() {
+
   return (
     <main class="m-2">
 

@@ -5,7 +5,7 @@ export default function Home() {
 
 
   return (
-    <div class="grid grid-cols-3 p-2">
+    <div class="grid grid-cols-3 p-2 gap-4">
 
       <For each={flags}>{(flag, _) =>
         <StudyFlag flag={flag} />

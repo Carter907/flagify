@@ -12,6 +12,7 @@ export default function FourCountryQuiz() {
     choices: []
   });
   const [score, setScore] = createSignal(0)
+  const [answerMessage, setAnswerMessage] = createSignal('')
 
   createEffect(on(score, () => {
 
@@ -42,9 +43,9 @@ export default function FourCountryQuiz() {
     }
   })
   return (
-    <div class="flex flex-row">
+    <div class="p-2 flex flex-row">
 
-      <div class="p-2 border rounded basis-1/2">
+      <div class="rounded basis-1/2">
         <img class="w-96 shadow-md border" src={questionData().correctFlag.img}></img>
 
         <div class="grid grid-cols-2 gap-2 py-2">
@@ -53,10 +54,11 @@ export default function FourCountryQuiz() {
               if (flag.name === questionData().correctFlag.name) {
 
                 setScore(score() + 1);
-                alert("right! current score: " + score())
+                setAnswerMessage("right! good work")
                 setQuestionData(getRandomQuestionData())
               } else {
-                alert('wrong!')
+                setAnswerMessage('wrong!')
+                setScore(score() - 1);
               }
             }}>
               {flag.name}
@@ -67,8 +69,15 @@ export default function FourCountryQuiz() {
 
       </div>
 
-      <div class="border p-4 rounded-full">
-        {score()}
+      <div class="border w-52 h-24 p-4 rounded-full">
+        <p class="text-4xl text-center">
+
+          {score()}
+        </p>
+        <p class="text-center">
+
+          {answerMessage()}
+        </p>
       </div>
     </div>
 
