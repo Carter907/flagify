@@ -89,7 +89,7 @@
     ]
   },
   "src/routes/quiz/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-D5YAQjcd.js",
+    "file": "assets/index-CqiPNhHE.js",
     "name": "index",
     "src": "src/routes/quiz/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -99,7 +99,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-C1UebGNY.js",
+    "file": "assets/client-CDQVIEq8.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
