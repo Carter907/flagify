@@ -1,0 +1,132 @@
+{
+  "_FourCountryQuiz-BHcaE1TQ.js": {
+    "file": "assets/FourCountryQuiz-BHcaE1TQ.js",
+    "name": "FourCountryQuiz",
+    "imports": [
+      "_web-BBukAW2Q.js",
+      "_flags-zdjHWBlJ.js"
+    ]
+  },
+  "_HttpStatusCode-CAXAknKm.js": {
+    "file": "assets/HttpStatusCode-CAXAknKm.js",
+    "name": "HttpStatusCode",
+    "imports": [
+      "_web-BBukAW2Q.js"
+    ]
+  },
+  "_ToggleTheme-0I4ZpgFS.js": {
+    "file": "assets/ToggleTheme-0I4ZpgFS.js",
+    "name": "ToggleTheme",
+    "imports": [
+      "_web-BBukAW2Q.js"
+    ]
+  },
+  "_flags-zdjHWBlJ.js": {
+    "file": "assets/flags-zdjHWBlJ.js",
+    "name": "flags"
+  },
+  "_web-BBukAW2Q.js": {
+    "file": "assets/web-BBukAW2Q.js",
+    "name": "web"
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "assets/_...404_-CKuGEQ8h.js",
+    "name": "_...404_",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BBukAW2Q.js",
+      "_HttpStatusCode-CAXAknKm.js"
+    ]
+  },
+  "src/routes/flags.tsx?pick=default&pick=$css": {
+    "file": "assets/flags-Dn6vhiY9.js",
+    "name": "flags",
+    "src": "src/routes/flags.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BBukAW2Q.js",
+      "_flags-zdjHWBlJ.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-7foxmu28.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BBukAW2Q.js"
+    ]
+  },
+  "src/routes/profile.tsx?pick=default&pick=$css": {
+    "file": "assets/profile-D0uQAB8g.js",
+    "name": "profile",
+    "src": "src/routes/profile.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BBukAW2Q.js",
+      "_ToggleTheme-0I4ZpgFS.js"
+    ]
+  },
+  "src/routes/quiz/four-countries.tsx?pick=default&pick=$css": {
+    "file": "assets/four-countries-mOoBqMeY.js",
+    "name": "four-countries",
+    "src": "src/routes/quiz/four-countries.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_FourCountryQuiz-BHcaE1TQ.js",
+      "_web-BBukAW2Q.js",
+      "_flags-zdjHWBlJ.js"
+    ]
+  },
+  "src/routes/quiz/four-flags.tsx?pick=default&pick=$css": {
+    "file": "assets/four-flags-mOoBqMeY.js",
+    "name": "four-flags",
+    "src": "src/routes/quiz/four-flags.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_FourCountryQuiz-BHcaE1TQ.js",
+      "_web-BBukAW2Q.js",
+      "_flags-zdjHWBlJ.js"
+    ]
+  },
+  "src/routes/quiz/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-DA-gKaaS.js",
+    "name": "index",
+    "src": "src/routes/quiz/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BBukAW2Q.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-B016nawU.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_web-BBukAW2Q.js",
+      "_HttpStatusCode-CAXAknKm.js",
+      "_ToggleTheme-0I4ZpgFS.js"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/flags.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/profile.tsx?pick=default&pick=$css",
+      "src/routes/quiz/four-countries.tsx?pick=default&pick=$css",
+      "src/routes/quiz/four-flags.tsx?pick=default&pick=$css",
+      "src/routes/quiz/index.tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-BtI1URjj.css"
+    ]
+  }
+}
