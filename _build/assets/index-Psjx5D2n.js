@@ -1,1 +1,0 @@
-import{w as t}from"./web-rMsw4ENT.js";var e=t("<main class=m-2><p class=text-2xl>Welcome</p><section>Welcome to Flagify, A World Flag Quizzing site to get better at recognizing country flags.");function a(){return e()}export{a as default};

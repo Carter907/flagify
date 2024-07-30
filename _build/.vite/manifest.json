@@ -1,111 +1,111 @@
 {
-  "_FourCountryQuiz-CF6cOz7o.js": {
-    "file": "assets/FourCountryQuiz-CF6cOz7o.js",
+  "_FourCountryQuiz-CKH057W2.js": {
+    "file": "assets/FourCountryQuiz-CKH057W2.js",
     "name": "FourCountryQuiz",
     "imports": [
-      "_web-rMsw4ENT.js",
+      "_web-CGBNmKrG.js",
       "_flags-zdjHWBlJ.js"
     ]
   },
-  "_HttpStatusCode-C-TLuglq.js": {
-    "file": "assets/HttpStatusCode-C-TLuglq.js",
+  "_HttpStatusCode-b2dJdmuH.js": {
+    "file": "assets/HttpStatusCode-b2dJdmuH.js",
     "name": "HttpStatusCode",
     "imports": [
-      "_web-rMsw4ENT.js"
+      "_web-CGBNmKrG.js"
     ]
   },
   "_flags-zdjHWBlJ.js": {
     "file": "assets/flags-zdjHWBlJ.js",
     "name": "flags"
   },
-  "_web-rMsw4ENT.js": {
-    "file": "assets/web-rMsw4ENT.js",
+  "_web-CGBNmKrG.js": {
+    "file": "assets/web-CGBNmKrG.js",
     "name": "web"
   },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
-    "file": "assets/_...404_-C1z6nffX.js",
+    "file": "assets/_...404_-BIiUBPH1.js",
     "name": "_...404_",
     "src": "src/routes/[...404].tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-rMsw4ENT.js",
-      "_HttpStatusCode-C-TLuglq.js"
+      "_web-CGBNmKrG.js",
+      "_HttpStatusCode-b2dJdmuH.js"
     ]
   },
   "src/routes/flags.tsx?pick=default&pick=$css": {
-    "file": "assets/flags-D9Ti-ocd.js",
+    "file": "assets/flags-CULBxLsF.js",
     "name": "flags",
     "src": "src/routes/flags.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-rMsw4ENT.js",
+      "_web-CGBNmKrG.js",
       "_flags-zdjHWBlJ.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-Psjx5D2n.js",
+    "file": "assets/index-JwnWKm-9.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-rMsw4ENT.js"
+      "_web-CGBNmKrG.js"
     ]
   },
   "src/routes/profile.tsx?pick=default&pick=$css": {
-    "file": "assets/profile-DplH_ED2.js",
+    "file": "assets/profile-BDRrRUm1.js",
     "name": "profile",
     "src": "src/routes/profile.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-rMsw4ENT.js"
+      "_web-CGBNmKrG.js"
     ]
   },
   "src/routes/quiz/four-countries.tsx?pick=default&pick=$css": {
-    "file": "assets/four-countries-B17XOlhZ.js",
+    "file": "assets/four-countries-W1LB1xvB.js",
     "name": "four-countries",
     "src": "src/routes/quiz/four-countries.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_FourCountryQuiz-CF6cOz7o.js",
-      "_web-rMsw4ENT.js",
+      "_FourCountryQuiz-CKH057W2.js",
+      "_web-CGBNmKrG.js",
       "_flags-zdjHWBlJ.js"
     ]
   },
   "src/routes/quiz/four-flags.tsx?pick=default&pick=$css": {
-    "file": "assets/four-flags-B17XOlhZ.js",
+    "file": "assets/four-flags-W1LB1xvB.js",
     "name": "four-flags",
     "src": "src/routes/quiz/four-flags.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_FourCountryQuiz-CF6cOz7o.js",
-      "_web-rMsw4ENT.js",
+      "_FourCountryQuiz-CKH057W2.js",
+      "_web-CGBNmKrG.js",
       "_flags-zdjHWBlJ.js"
     ]
   },
   "src/routes/quiz/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-5C7P6voK.js",
+    "file": "assets/index-D5YAQjcd.js",
     "name": "index",
     "src": "src/routes/quiz/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-rMsw4ENT.js"
+      "_web-CGBNmKrG.js"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-DabjES2t.js",
+    "file": "assets/client-C1UebGNY.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_web-rMsw4ENT.js",
-      "_HttpStatusCode-C-TLuglq.js"
+      "_web-CGBNmKrG.js",
+      "_HttpStatusCode-b2dJdmuH.js"
     ],
     "dynamicImports": [
       "src/routes/[...404].tsx?pick=default&pick=$css",
