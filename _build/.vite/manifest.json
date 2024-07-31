@@ -1,10 +1,10 @@
 {
-  "_FourCountryQuiz-COyPCmtd.js": {
-    "file": "assets/FourCountryQuiz-COyPCmtd.js",
+  "_FourCountryQuiz-AwKIZZY8.js": {
+    "file": "assets/FourCountryQuiz-AwKIZZY8.js",
     "name": "FourCountryQuiz",
     "imports": [
       "_web-BkDJMDSk.js",
-      "_flags-zdjHWBlJ.js"
+      "_flags-BbEtasJZ.js"
     ]
   },
   "_HttpStatusCode-Ct3MV7rR.js": {
@@ -14,8 +14,8 @@
       "_web-BkDJMDSk.js"
     ]
   },
-  "_flags-zdjHWBlJ.js": {
-    "file": "assets/flags-zdjHWBlJ.js",
+  "_flags-BbEtasJZ.js": {
+    "file": "assets/flags-BbEtasJZ.js",
     "name": "flags"
   },
   "_web-BkDJMDSk.js": {
@@ -34,14 +34,14 @@
     ]
   },
   "src/routes/flags.tsx?pick=default&pick=$css": {
-    "file": "assets/flags-2Hj8QhSk.js",
+    "file": "assets/flags-Dm5mP5Rb.js",
     "name": "flags",
     "src": "src/routes/flags.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_web-BkDJMDSk.js",
-      "_flags-zdjHWBlJ.js"
+      "_flags-BbEtasJZ.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
@@ -65,31 +65,31 @@
     ]
   },
   "src/routes/quiz/four-countries.tsx?pick=default&pick=$css": {
-    "file": "assets/four-countries-CoU5sbHf.js",
+    "file": "assets/four-countries-DGvWhNO9.js",
     "name": "four-countries",
     "src": "src/routes/quiz/four-countries.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_FourCountryQuiz-COyPCmtd.js",
+      "_FourCountryQuiz-AwKIZZY8.js",
       "_web-BkDJMDSk.js",
-      "_flags-zdjHWBlJ.js"
+      "_flags-BbEtasJZ.js"
     ]
   },
   "src/routes/quiz/four-flags.tsx?pick=default&pick=$css": {
-    "file": "assets/four-flags-CoU5sbHf.js",
+    "file": "assets/four-flags-DGvWhNO9.js",
     "name": "four-flags",
     "src": "src/routes/quiz/four-flags.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_FourCountryQuiz-COyPCmtd.js",
+      "_FourCountryQuiz-AwKIZZY8.js",
       "_web-BkDJMDSk.js",
-      "_flags-zdjHWBlJ.js"
+      "_flags-BbEtasJZ.js"
     ]
   },
   "src/routes/quiz/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-IJ3UHY-_.js",
+    "file": "assets/index-CZoOiauI.js",
     "name": "index",
     "src": "src/routes/quiz/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -99,7 +99,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-DLxNHFaZ.js",
+    "file": "assets/client-C_ksxHA_.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
