@@ -12,7 +12,7 @@ This page is used to actually test your flag knowledge. Test your knowledge base
 In order to make Flagify more enjoyable I wanted to add scoring system in play that would track your progress as you learn more flags. Similar to other game sites such as Chess.com.
 For example, whenever you get a question right you would earth a point. These points would add up over time and allow you to unlock harder challenges. 
 ### Accounts
-Right now, there are only local stored states meaning if you clear you cache, your stats will be gone. In the future, I plan on adding Oauth2 for a more familar experience.
+Right now, there are only local stored stats meaning if you clear you cache, your stats will be gone. In the future, I plan on adding Oauth2 for a more familar experience.
 
 This project is used to test my front-end skills.
 
