@@ -8,5 +8,10 @@
     "name": "Four Flags Test",
     "path": "/quiz/four-flags",
     "description": "You are given four flags and a country. Click the flag that matches the country."
+  },
+  {
+    "name": "Four Countries Test Completely Random",
+    "path": "/quiz/four-countries-completely-random",
+    "description": "You are given completely random country flags with no time limit"
   }
 ]

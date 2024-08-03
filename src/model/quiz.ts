@@ -1,6 +1,10 @@
 export default interface Quiz {
   name: string,
-  amount: number
-  time: 0 | 1 | 2,
+  path: string,
+  description: string,
+  amount: number,
+  time: Time
   continent: string,
 }
+
+export type Time = 0 | 1 | 2;

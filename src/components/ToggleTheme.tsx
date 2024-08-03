@@ -29,7 +29,7 @@ export default function ToggleTheme() {
   })
 
   return (
-    <button class="border-4 rounded-full p-2" onclick={() => {
+    <button class="border-2 rounded-full p-2" onclick={() => {
       toggleTheme(!theme())
     }}>
       <Show when={theme()} fallback={<BsBrightnessHigh size={24} />}>

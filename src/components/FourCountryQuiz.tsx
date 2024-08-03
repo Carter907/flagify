@@ -1,9 +1,6 @@
-import { createSignal, onMount, createEffect, For, on } from "solid-js"
-import { createStore, produce } from "solid-js/store"
-import { makePersisted } from "@solid-primitives/storage"
+import { createSignal, onMount, createEffect, For, on, Signal } from "solid-js"
 import FourCountryQuestionData from "~/model/fourCountryQuestion"
 import flags from "~/flags.json"
-import Flag from "~/model/flag"
 
 
 export default function FourCountryQuiz() {
