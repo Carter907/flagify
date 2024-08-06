@@ -1,9 +1,13 @@
-import { createSignal, onMount, createEffect, For, on, Signal } from "solid-js"
+import { createSignal, createEffect, For, on } from "solid-js"
 import FourCountryQuestionData from "~/model/fourCountryQuestion"
 import flags from "~/flags.json"
+import { QuizSettings } from '~/model/quiz'
 
+interface FourCountryQuizProps {
+  settings: QuizSettings
+}
 
-export default function FourCountryQuiz() {
+export default function FourCountryQuiz({ settings }: FourCountryQuizProps) {
   const [questionData, setQuestionData] = createSignal<FourCountryQuestionData>({
     correctFlag: { name: '', continent: '', description: '', img: '' },
     choices: []

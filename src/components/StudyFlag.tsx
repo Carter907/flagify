@@ -1,4 +1,4 @@
-import { createSignal, Show, Accessor } from 'solid-js'
+import { Show, Accessor } from 'solid-js'
 import Flag from '../model/flag'
 interface StudyFlagProps {
   flag: Flag
