@@ -1,4 +1,5 @@
 import { createEffect, createSignal, For, on } from "solid-js";
+import { Continent } from "~/model/flag";
 import { Time } from "~/model/quiz"
 import { QuizSettings } from "~/model/quiz";
 
@@ -7,7 +8,7 @@ interface QuizSettingProps {
 }
 
 export default function QuizSetting({ onStartQuiz }: QuizSettingProps) {
-  const [continent, setContinent] = createSignal<string>("Oceania");
+  const [continent, setContinent] = createSignal<Continent>("Oceania");
   const [time, setTime] = createSignal<Time>(0);
   const [amount, setAmount] = createSignal<number>(1);
 
@@ -26,7 +27,7 @@ export default function QuizSetting({ onStartQuiz }: QuizSettingProps) {
         Settings
       </p>
 
-      <div class="flex flex-col w-64 gap-2">
+      <div class="flex flex-col w-64 gap-2 dark:bg-neutral-800 bg-neutral-200 p-2 rounded shadow-md">
         <label class="opacity-50">time (mins):</label>
         <select id="time-field" class="w-full p-2 rounded dark:bg-neutral-800" required onchange={(val) => { setTime(Number.parseInt(val.target.value) as Time) }}>
 
@@ -44,7 +45,7 @@ export default function QuizSetting({ onStartQuiz }: QuizSettingProps) {
 
         <div>
           <label class="opacity-50">continent:</label>
-          <select class="w-full p-2 rounded dark:bg-neutral-800" required onchange={(val) => { setContinent(val.target.value) }}>
+          <select class="w-full p-2 rounded dark:bg-neutral-800" required onchange={(val) => { setContinent(val.target.value as Continent) }}>
             <For each={["Oceania", "Africa", "Asisa", "North America", "South America", "Europe", "Antartica"]}>
 
               {(item) => <option>
@@ -62,7 +63,7 @@ export default function QuizSetting({ onStartQuiz }: QuizSettingProps) {
 
         </div>
 
-      </div>
+      </div >
       <button onclick={() => onStartQuiz({
 
         amount: amount(),

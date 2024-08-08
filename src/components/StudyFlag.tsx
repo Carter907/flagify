@@ -11,7 +11,7 @@ function StudyFlag({ flag, showDescription }: StudyFlagProps) {
     <div class="border rounded md:p-4 items-center text-center p-2 flex flex-col gap-4">
 
       <div>
-        <img class="shadow-md" src={flag.img} width="256px" height="256px" alt="image of the US flag" />
+        <img class="shadow-md m-auto" src={flag.img} width="256px" height="256px" alt="image of the US flag" />
         <p class="font-bold text-2xl">{flag.name}</p>
 
       </div>
