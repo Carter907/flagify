@@ -18,4 +18,6 @@ This project is used to test my front-end skills.
 
 powered by [`solid-start`](https://start.solidjs.com);
 
+credit to [https://flagicons.lipis.dev/](https://flagicons.lipis.dev/) for flags.
+
 #### This project was created with the [Solid CLI](https://solid-cli.netlify.app)
