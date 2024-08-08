@@ -6,16 +6,16 @@
       "_web-BkDJMDSk.js"
     ]
   },
-  "_QuizSetting-eQV6rs5n.js": {
-    "file": "assets/QuizSetting-eQV6rs5n.js",
+  "_QuizSetting-D9slAZIC.js": {
+    "file": "assets/QuizSetting-D9slAZIC.js",
     "name": "QuizSetting",
     "imports": [
       "_web-BkDJMDSk.js",
-      "_flags-BbEtasJZ.js"
+      "_flags-CKMOOGTe.js"
     ]
   },
-  "_flags-BbEtasJZ.js": {
-    "file": "assets/flags-BbEtasJZ.js",
+  "_flags-CKMOOGTe.js": {
+    "file": "assets/flags-CKMOOGTe.js",
     "name": "flags"
   },
   "_web-BkDJMDSk.js": {
@@ -34,14 +34,14 @@
     ]
   },
   "src/routes/flags.tsx?pick=default&pick=$css": {
-    "file": "assets/flags-DovBhEen.js",
+    "file": "assets/flags-CxpaHEBP.js",
     "name": "flags",
     "src": "src/routes/flags.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_web-BkDJMDSk.js",
-      "_flags-BbEtasJZ.js"
+      "_flags-CKMOOGTe.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
@@ -65,27 +65,27 @@
     ]
   },
   "src/routes/quiz/four-countries.tsx?pick=default&pick=$css": {
-    "file": "assets/four-countries-B2QQ5c7i.js",
+    "file": "assets/four-countries-C3Agjo1s.js",
     "name": "four-countries",
     "src": "src/routes/quiz/four-countries.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_web-BkDJMDSk.js",
-      "_QuizSetting-eQV6rs5n.js",
-      "_flags-BbEtasJZ.js"
+      "_QuizSetting-D9slAZIC.js",
+      "_flags-CKMOOGTe.js"
     ]
   },
   "src/routes/quiz/four-flags.tsx?pick=default&pick=$css": {
-    "file": "assets/four-flags-BIWTWo7P.js",
+    "file": "assets/four-flags-C3Agjo1s.js",
     "name": "four-flags",
     "src": "src/routes/quiz/four-flags.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_web-BkDJMDSk.js",
-      "_QuizSetting-eQV6rs5n.js",
-      "_flags-BbEtasJZ.js"
+      "_QuizSetting-D9slAZIC.js",
+      "_flags-CKMOOGTe.js"
     ]
   },
   "src/routes/quiz/index.tsx?pick=default&pick=$css": {
@@ -99,7 +99,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-09ATWbIs.js",
+    "file": "assets/client-CG6IAj69.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
@@ -117,7 +117,7 @@
       "src/routes/quiz/index.tsx?pick=default&pick=$css"
     ],
     "css": [
-      "assets/client-C8O_O-bh.css"
+      "assets/client-YbOwK55t.css"
     ]
   }
 }
