@@ -1,111 +1,120 @@
 {
-  "_HttpStatusCode-Ct3MV7rR.js": {
-    "file": "assets/HttpStatusCode-Ct3MV7rR.js",
+  "_HttpStatusCode-CrhSdw-c.js": {
+    "file": "assets/HttpStatusCode-CrhSdw-c.js",
     "name": "HttpStatusCode",
     "imports": [
-      "_web-BkDJMDSk.js"
+      "_web-UJ2V_3xi.js"
     ]
   },
-  "_QuizSetting-D9slAZIC.js": {
-    "file": "assets/QuizSetting-D9slAZIC.js",
+  "_QuizSetting-euorF_80.js": {
+    "file": "assets/QuizSetting-euorF_80.js",
     "name": "QuizSetting",
     "imports": [
-      "_web-BkDJMDSk.js",
-      "_flags-CKMOOGTe.js"
+      "_web-UJ2V_3xi.js",
+      "_flags-lKMAGUzF.js"
     ]
   },
-  "_flags-CKMOOGTe.js": {
-    "file": "assets/flags-CKMOOGTe.js",
+  "_flags-lKMAGUzF.js": {
+    "file": "assets/flags-lKMAGUzF.js",
     "name": "flags"
   },
-  "_web-BkDJMDSk.js": {
-    "file": "assets/web-BkDJMDSk.js",
+  "_index-BxWhRlh1.js": {
+    "file": "assets/index-BxWhRlh1.js",
+    "name": "index",
+    "imports": [
+      "_web-UJ2V_3xi.js"
+    ]
+  },
+  "_web-UJ2V_3xi.js": {
+    "file": "assets/web-UJ2V_3xi.js",
     "name": "web"
   },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
-    "file": "assets/_...404_-hFxl80hD.js",
+    "file": "assets/_...404_-B2vI_g8T.js",
     "name": "_...404_",
     "src": "src/routes/[...404].tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BkDJMDSk.js",
-      "_HttpStatusCode-Ct3MV7rR.js"
+      "_web-UJ2V_3xi.js",
+      "_HttpStatusCode-CrhSdw-c.js"
     ]
   },
   "src/routes/flags.tsx?pick=default&pick=$css": {
-    "file": "assets/flags-CxpaHEBP.js",
+    "file": "assets/flags-DqsrpmGj.js",
     "name": "flags",
     "src": "src/routes/flags.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BkDJMDSk.js",
-      "_flags-CKMOOGTe.js"
+      "_web-UJ2V_3xi.js",
+      "_flags-lKMAGUzF.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-hXcrInns.js",
+    "file": "assets/index-Dbb8qTny.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BkDJMDSk.js"
+      "_web-UJ2V_3xi.js"
     ]
   },
   "src/routes/profile.tsx?pick=default&pick=$css": {
-    "file": "assets/profile-C0EMEeOL.js",
+    "file": "assets/profile-19PSC8Uj.js",
     "name": "profile",
     "src": "src/routes/profile.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BkDJMDSk.js"
+      "_web-UJ2V_3xi.js"
     ]
   },
   "src/routes/quiz/four-countries.tsx?pick=default&pick=$css": {
-    "file": "assets/four-countries-C3Agjo1s.js",
+    "file": "assets/four-countries-JQ52Q5f2.js",
     "name": "four-countries",
     "src": "src/routes/quiz/four-countries.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BkDJMDSk.js",
-      "_QuizSetting-D9slAZIC.js",
-      "_flags-CKMOOGTe.js"
+      "_web-UJ2V_3xi.js",
+      "_QuizSetting-euorF_80.js",
+      "_index-BxWhRlh1.js",
+      "_flags-lKMAGUzF.js"
     ]
   },
   "src/routes/quiz/four-flags.tsx?pick=default&pick=$css": {
-    "file": "assets/four-flags-C3Agjo1s.js",
+    "file": "assets/four-flags-DCdQ2wJ0.js",
     "name": "four-flags",
     "src": "src/routes/quiz/four-flags.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BkDJMDSk.js",
-      "_QuizSetting-D9slAZIC.js",
-      "_flags-CKMOOGTe.js"
+      "_web-UJ2V_3xi.js",
+      "_QuizSetting-euorF_80.js",
+      "_flags-lKMAGUzF.js"
     ]
   },
   "src/routes/quiz/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-BOP4Bg7N.js",
+    "file": "assets/index-BOob0tfS.js",
     "name": "index",
     "src": "src/routes/quiz/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BkDJMDSk.js"
+      "_web-UJ2V_3xi.js"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-CG6IAj69.js",
+    "file": "assets/client-BBOd7XJB.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_web-BkDJMDSk.js",
-      "_HttpStatusCode-Ct3MV7rR.js"
+      "_web-UJ2V_3xi.js",
+      "_HttpStatusCode-CrhSdw-c.js",
+      "_index-BxWhRlh1.js"
     ],
     "dynamicImports": [
       "src/routes/[...404].tsx?pick=default&pick=$css",
@@ -117,7 +126,7 @@
       "src/routes/quiz/index.tsx?pick=default&pick=$css"
     ],
     "css": [
-      "assets/client-YbOwK55t.css"
+      "assets/client-BYUh6Fz6.css"
     ]
   }
 }
