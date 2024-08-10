@@ -14,3 +14,4 @@ export interface QuizSettings {
   time: Time
   continent: Continent
 }
+

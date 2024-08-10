@@ -24,7 +24,7 @@ export default function QuizSetting({ onStartQuiz }: QuizSettingProps) {
   return (
     <div class="flex flex-col gap-5">
       <p class="text-2xl">
-        Settings
+        Choose your Settings!
       </p>
 
       <div class="flex flex-col w-64 gap-2 dark:bg-neutral-800 bg-neutral-200 p-2 rounded shadow-md">
@@ -46,7 +46,7 @@ export default function QuizSetting({ onStartQuiz }: QuizSettingProps) {
         <div>
           <label class="opacity-50">continent:</label>
           <select class="w-full p-2 rounded dark:bg-neutral-800" required onchange={(val) => { setContinent(val.target.value as Continent) }}>
-            <For each={["Oceania", "Africa", "Asisa", "North America", "South America", "Europe", "Antartica"]}>
+            <For each={["Oceania", "Africa", "Asia", "North America", "South America", "Europe", "Antartica"]}>
 
               {(item) => <option>
                 {item}
@@ -70,7 +70,7 @@ export default function QuizSetting({ onStartQuiz }: QuizSettingProps) {
         time: time(),
         continent: continent(),
 
-      })} class="self-end p-2 border rounded w-fit">
+      })} class="border hover:bg-neutral-100 dark:hover:bg-neutral-700 dark:bg-neutral-800 py-2 px-6 self-end rounded-full w-fit">
         start
       </button>
     </div >
