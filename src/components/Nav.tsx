@@ -7,13 +7,25 @@ import { CgProfile } from 'solid-icons/cg'
 export default function NavBar() {
 
   return (
-    <nav class="flex border-b-2 border-neutral-400 dark:border-neutral-700 flex-row shadow-2xl md:gap-4 p-2 bg-neutral-300 dark:bg-neutral-800">
+    <nav class="flex border-neutral-400 dark:border-neutral-700 flex-row border-b-2 md:gap-4 p-2 bg-neutral-300 dark:bg-neutral-800">
 
       <div class="md:w-2/3 w-full md:px-0 px-4 flex flex-row m-auto">
         <div class="basis-1/2 justify-start flex flex-row gap-2 md:gap-5">
-          <a href="/flagify/" class="border hover:bg-neutral-200 dark:hover:bg-neutral-700 rounded p-2 md:w-32 w-full"><VsHome /> Home</a>
-          <a href="/flagify/quiz" class="border hover:bg-neutral-200 dark:hover:bg-neutral-700 rounded p-2 md:w-32 w-full"><BiSolidPencil />Quiz</a>
-          <a href="/flagify/flags" class="border hover:bg-neutral-200 dark:hover:bg-neutral-700 rounded p-2 md:w-32 w-full"><IoFlagSharp /> Flags</a>
+          <a href="/flagify/" class="border hover:bg-neutral-200 dark:hover:bg-neutral-700
+          rounded p-2 md:w-32 w-full flex flex-row items-center justify-evenly">
+            <VsHome size={20} /> Home
+
+          </a>
+          <a href="/flagify/quiz" class="border hover:bg-neutral-200 dark:hover:bg-neutral-700
+          rounded p-2 md:w-32 w-full flex flex-row items-center justify-evenly">
+            <BiSolidPencil size={20} /> Quiz
+
+          </a>
+          <a href="/flagify/flags" class="border hover:bg-neutral-200 dark:hover:bg-neutral-700
+          rounded p-2 md:w-32 w-full flex flex-row items-center justify-evenly">
+            <IoFlagSharp size={20} /> Flags
+
+          </a>
 
         </div>
         <div class="basis-1/2 flex flex-row justify-end gap-2 md:gap-5">

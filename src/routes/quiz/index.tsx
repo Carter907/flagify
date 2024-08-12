@@ -6,8 +6,6 @@ export default function Home() {
       <div>
         <p class="text-2xl">Where your Journy Begins!</p>
         <section>test your skills in the following quiz types:</section>
-
-
       </div>
 
       <div class="rounded">

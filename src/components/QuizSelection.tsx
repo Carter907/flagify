@@ -5,7 +5,7 @@ export default function QuizSelection() {
 
 
   return (
-    <div class="grid grid-cols-2 gap-4 p-2 w-fit">
+    <div class="grid grid-cols-2 gap-4 w-fit">
 
       <For each={quizThumbnails}>{(quizThumbnail, _) =>
 

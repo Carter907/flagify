@@ -29,10 +29,6 @@ export default function FourCountryQuiz({ settings, onFinished }: FourCountryQui
   //
   //   localStorage.setItem("fourCountryQuestions", JSON.stringify(questions()))
   // }, { defer: true }))
-  // createEffect(on(index, () => {
-  //   localStorage.setItem("questionIndex", JSON.stringify(index()))
-  // }, { defer: true }))
-
   createEffect(() => {
     //
     //
@@ -67,28 +63,40 @@ export default function FourCountryQuiz({ settings, onFinished }: FourCountryQui
   })
   return (
 
-    <div class="p-2 flex flex-row justify-evenly">
+    <div class="p-2 flex flex-row justify-evenly h-[80vh]">
 
-      <div class="rounded basis-1/2">
-        <img class="w-96 shadow-md border" src={questions()[index()].correctFlag.img}></img>
+      <div class="rounded basis-3/4 h-full flex gap-20 flex-col justify-center items-center">
+        <img class="w-96 shadow-md scale-150" src={questions()[index()].correctFlag.img}></img>
 
-        <div class="grid grid-cols-2 gap-2 py-2">
+        <div class="grid grid-cols-2 gap-2 py-2 w-full">
           <For each={questions()[index()].choices}>{(flag, _) =>
-            <button class="p-2 border rounded" onclick={() => {
+            <button class="p-4 border rounded w-full" onclick={() => {
 
               if (flag.name === questions()[index()].correctFlag.name) {
 
                 setScore(score() + 1);
                 setAnswerMessage("right! good work")
-                setIndex(index() + 1);
+
+                if (index() === questions().length - 1) {
+
+                  onFinished(score(), questions().length);
+                } else {
+                  setIndex(index() + 1);
+                }
               } else {
                 setAnswerMessage('wrong!')
                 setIndex(index() + 1);
-              }
-              if (index() === questions().length - 1) {
 
-                onFinished(score() + 1, questions().length);
+                if (index() === questions().length - 1) {
+
+                  onFinished(score(), questions().length);
+                } else {
+                  setIndex(index() + 1);
+                }
               }
+
+
+              console.log(index())
             }}>
               {flag.name}
             </button>
@@ -98,7 +106,7 @@ export default function FourCountryQuiz({ settings, onFinished }: FourCountryQui
 
       </div>
 
-      <div class="self-center border w-52 h-24 p-4 rounded-full">
+      <div class="self-start w-52 h-24 p-4 rounded-full">
         <p class="text-4xl text-center">
 
           {score()}/{questions().length}
@@ -109,6 +117,7 @@ export default function FourCountryQuiz({ settings, onFinished }: FourCountryQui
         </p>
       </div>
     </div>
+
   )
 }
 

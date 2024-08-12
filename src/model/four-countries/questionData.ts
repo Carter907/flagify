@@ -15,7 +15,11 @@ export function getFourCountryList(settings: QuizSettings, list: Flag[]): Questi
     }
   }).map((value, _, flags) => {
     let choices: Flag[] = []
-    for (let i = 0; i < 3; i++) {
+    let numChoices = 4;
+    if (settings.amount < numChoices) {
+      numChoices = settings.amount;
+    }
+    for (let i = 0; i < numChoices - 1; i++) {
       let randomChoice;
       do {
         randomChoice = flags[Math.floor(Math.random() * flags.length)] as Flag
@@ -23,7 +27,7 @@ export function getFourCountryList(settings: QuizSettings, list: Flag[]): Questi
       choices.push(randomChoice)
     }
     choices.push(value);
-    choices.toSorted(() => (Math.random() * 2) - 1);
+    choices = choices.toSorted(() => (Math.random() * 2) - 1);
     const questionData: QuestionData = {
       correctFlag: value,
       choices: choices,
@@ -34,5 +38,5 @@ export function getFourCountryList(settings: QuizSettings, list: Flag[]): Questi
 
 
 
-  return filteredList;
+  return filteredList.slice(0, settings.amount);
 }
