@@ -33,7 +33,7 @@
     ]
   },
   "src/routes/flags.tsx?pick=default&pick=$css": {
-    "file": "assets/flags-BCZRcnsA.js",
+    "file": "assets/flags-BatK6GWV.js",
     "name": "flags",
     "src": "src/routes/flags.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -44,7 +44,7 @@
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index--7RgklgV.js",
+    "file": "assets/index-N2VHdh_T.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -64,7 +64,7 @@
     ]
   },
   "src/routes/quiz/four-countries.tsx?pick=default&pick=$css": {
-    "file": "assets/four-countries-CGh9r95Q.js",
+    "file": "assets/four-countries-WbKybS78.js",
     "name": "four-countries",
     "src": "src/routes/quiz/four-countries.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -76,7 +76,7 @@
     ]
   },
   "src/routes/quiz/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-Cw_mr7IK.js",
+    "file": "assets/index-B3mtphaG.js",
     "name": "index",
     "src": "src/routes/quiz/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -86,7 +86,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-B_D-pj2A.js",
+    "file": "assets/client-C9vETxiw.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
@@ -104,7 +104,7 @@
       "src/routes/quiz/index.tsx?pick=default&pick=$css"
     ],
     "css": [
-      "assets/client-BObEkFor.css"
+      "assets/client-CHzXblZ1.css"
     ]
   }
 }
