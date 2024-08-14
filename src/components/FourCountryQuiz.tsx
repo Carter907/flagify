@@ -63,7 +63,7 @@ export default function FourCountryQuiz({ settings, onFinished }: FourCountryQui
   })
   return (
 
-    <div class="p-2 flex flex-row justify-evenly h-[80vh]">
+    <div class="p-2 flex flex-row justify-evenly h-[70vh]">
 
       <div class="rounded basis-3/4 h-full flex gap-20 flex-col justify-center items-center">
         <img class="w-96 shadow-md scale-150" src={questions()[index()].correctFlag.img}></img>

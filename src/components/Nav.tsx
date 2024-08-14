@@ -7,7 +7,7 @@ import { CgProfile } from 'solid-icons/cg'
 export default function NavBar() {
 
   return (
-    <nav class="flex border-neutral-400 dark:border-neutral-700 flex-row border-b-2 md:gap-4 p-2 bg-neutral-300 dark:bg-neutral-800">
+    <nav class="fixed w-full flex border-neutral-400 dark:border-neutral-700 flex-row border-b-2 md:gap-4 py-2 bg-neutral-300 dark:bg-neutral-800">
 
       <div class="md:w-2/3 w-full md:px-0 px-4 flex flex-row m-auto">
         <div class="basis-1/2 justify-start flex flex-row gap-2 md:gap-5">

@@ -33,7 +33,7 @@ export default function QuizSetting({ onStartQuiz }: QuizSettingProps) {
     console.log(amount())
   }, { defer: true }))
   return (
-    <div class="flex flex-col gap-4 h-[80vh]">
+    <div class="flex flex-col gap-4 h-[70vh]">
       <p class="text-2xl">
         Choose your Settings!
       </p>

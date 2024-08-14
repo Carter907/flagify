@@ -11,10 +11,10 @@ export default function App() {
       base={import.meta.env.SERVER_BASE_URL || "flagify"}
       root={props => (
         <MetaProvider>
-          <Title>Flags of the World</Title>
+          <Title>Flagify</Title>
           <NavBar />
 
-          <div class="md:w-2/3 m-auto py-14">
+          <div class="md:w-2/3 m-auto py-36">
 
             <Suspense>{props.children}</Suspense>
           </div>
